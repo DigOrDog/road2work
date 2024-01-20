@@ -1,0 +1,14 @@
+{
+    //set project jdk
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-11",
+        "path": "/usr/bin/java",
+        "default": true,
+        "sources": "/usr/lib/jvm/openjdk-11/lib/src.zip"
+      }
+    ],
+    // //set vscode extension jdk
+    // "java.home": "/usr/bin/java",
+  }
+  

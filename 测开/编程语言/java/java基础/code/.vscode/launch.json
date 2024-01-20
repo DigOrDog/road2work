@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DebugFile",
+            "request": "launch",
+            "mainClass": "测开.编程语言.java.java基础.code.Main",
+            "projectName": "",
+            // "stepFilters": {
+            //     "skipClasses": [
+            //         // "$JDK",
+            //         // "junit.*"
+            //     ],
+            //     "skipSynthetics": false,
+            //     "skipStaticInitializers": false,
+            //     "skipConstructors": false
+            // },
+            // "justMyCode": false
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "com.example-demo"
+        },
+        {
+            "type": "java",
+            "name": "TestObjectSize",
+            "request": "launch",
+            "mainClass": "com.example.TestObjectSize",
+            "projectName": "com.example-demo"
+        }
+    ]
+}
